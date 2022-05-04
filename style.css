@@ -1,3 +1,4 @@
+npm install --save normalize.css
 p {
     font-family: serif;
     letter-spacing: 1px;
@@ -17,9 +18,12 @@ p {
     background-color: gold;
 }
 body {
+    font-family: 'Open Sans', sans-serif;
     width: 90%;
     margin: 5%;
-    background-image: url(C:\Users\Utilisateur\Documents\Henri\BeCode\test\progressive-enhancement\progressive-enhancement\Saved\Pictures\Voyage.jpg);
+    background-image: url(image/Voyage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 blockquote {
     margin-top: 80px;
@@ -31,4 +35,47 @@ blockquote {
     font-size: 160%;
     background-color: rgb(196, 184, 184);
     border-left: 3px solid blue;
+    font-style: italic;
+}
+table {
+    border: 3px solid purple;
+}
+.villageois {
+    border: 1px solid black;
+    border-left-color: gold;
+    border-left-width: 3px;
+    font-style: italic;
+}
+.fermier {
+    border: 1px solid black;
+    border-left-color: darkred;
+    border-left-width: 3px;
+    font-style: italic;
+}
+.titre {
+    background-color: yellow;
+}
+.good {
+    color: green;
+    text-transform: capitalize;
+}
+.bad {
+    color: red;
+    text-transform: capitalize;
+}
+.gras {
+    font-weight: bold;
+}
+.titre1 {
+    Background-color: purple;
+}
+tr:nth-child(even) {
+    background-color: rgb(131, 121, 121);
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+img {
+    display: block;
+    margin: auto;
 }
