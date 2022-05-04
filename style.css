@@ -2,5 +2,33 @@ p {
     font-family: serif;
     letter-spacing: 1px;
     font-size: 15px;
-    color: #7F7F7F;
+    color: #474545;
+}
+.lien {
+    font-family: calibri;
+    letter-spacing: 1px;
+    color: green;
+    font-style: italic;
+}
+.lien:visited {
+    color: red;
+}
+.lien:hover {
+    background-color: gold;
+}
+body {
+    width: 90%;
+    margin: 5%;
+    background-image: url(C:\Users\Utilisateur\Documents\Henri\BeCode\test\progressive-enhancement\progressive-enhancement\Saved\Pictures\Voyage.jpg);
+}
+blockquote {
+    margin-top: 80px;
+    margin-right: 18%;
+    margin-bottom: 80px;
+    margin-left: 18%;
+    padding: 2%;
+    padding-left: 30px;
+    font-size: 160%;
+    background-color: rgb(196, 184, 184);
+    border-left: 3px solid blue;
 }
